@@ -44,9 +44,9 @@ public class TitleAction : MonoBehaviour
 
     public void PushHowToPlay()
     {
-        Debug.Log("h‰Ÿ‚³‚ê‚½");
         if (situation == Situation.Title)
         {
+            Debug.Log("h‰Ÿ‚³‚ê‚½");
             situation = Situation.HowToPlay;
             PageCnt = 0;
             Display.GetComponent<Image>().sprite = sprites[PageCnt];
